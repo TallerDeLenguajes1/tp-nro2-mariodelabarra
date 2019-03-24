@@ -1,0 +1,2 @@
+f) - No aparecen porque se crea una "version nueva" de mi repositorio donde se pueden aplicar cambios sin afectar
+el proyecto principal, se lo utiliza para probar nuevas funciones en algun codigo por ejemplo.
