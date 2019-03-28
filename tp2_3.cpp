@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #define FILAS 15
 
 int main(void){
 	setvbuf(stdout, NULL, _IONBF, 0);
+	srand(time(NULL));
 	int Columnas, FilasVec, ColumVec, numAle, resultado, i;
-	Columnas = rand() % 11 + 5;
+	Columnas = (rand()%(11 + 5));
 	int * Vec[FILAS], VecPares[FILAS];
 
 	VecPares[FILAS] = (int ) malloc(sizeof(int)*15);
